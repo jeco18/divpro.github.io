@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Divpro</title>
+    <link rel="icon" type="image/x-icon" href="img/divpro logo.svg">
+</head>
+<body>
+    <!--Home Section-->
+    <div class="container-fluid" id="home">
+        <div class="row">
+            <nav class="navbar navbar-light bg-white p-3 fixed-top">
+                <div class="col-lg-4 justify-content-lg-center d-flex">
+                    <div><a class="navbar-brand me-2" href="#"><img style="height: 25px" src="img/divpro logo.svg" alt="Divpro"></a></div>
+                    <div><span class="fs-4 text-start fw-bold">Divpro</span></div>
+                </div>
+                <div class="col-lg-8 d-flex justify-content-lg-around">
+                    <div class="mt-lg-2"><a class="text-decoration-none text-reset fw-bold nav-links" href="#home">Home</a></div>
+                    <div class="mt-lg-2"><a class="text-decoration-none text-reset fw-bold nav-links" href="#campus">Campus</a></div>
+                    <div class="mt-lg-2"><a class="text-decoration-none text-reset fw-bold nav-links" href="#curriculum">Curriculum</a></div>
+                    <div class="mt-lg-2"><a class="text-decoration-none text-reset fw-bold nav-links" href="#career-section">Career Services</a></div>
+                    <div class="mt-lg-2"><a class="text-decoration-none text-reset fw-bold nav-links" href="#testimonials-section">Testimonials</a></div>
+                    <div><button type="button" class="btn btn-primary"><a class="text-reset text-decoration-none fw-bold" href="#get-started-section">Get Started</a></button></div>
+                </div>
+            </nav>
+        </div>
+        <div class="row mt-lg-5 pt-lg-5">
+            <div class="col-lg-10 mx-lg-auto mt-lg-5 pt-lg-5">
+                <div class="text-center"><h2 class="fs-1 fw-bold">The Bootcamp Experience</h2></div>
+                <div class="text-center mt-lg-5 pt-lg-4"><p class="lh-lg">Divpro is more than a Web Development bootcamp: it's a career transformation experience. Beyond learning the essential technical skills you'll need to start a new career as a Web Developer, you'll gain hands-on, industry experience through unique real-world projects where you'll work alongside industry professionals on real business problems and collaborate with designers, data scientists, and digital marketers to deliver a real-world solution. See why thousands of graduates have launched their new careers with Divpro through this Web Development bootcamp.</p></div>
+            </div>
+        </div>
+        <div class="row mt-lg-5 photo-gallery">
+            <div class="col-lg-3">
+                <img src="img/developer-coding-in-php.jpg" alt="developer-coding-in-php">
+            </div>
+            <div class="col-lg-3">
+                <img src="img/developer-reviewing-javascript.jpg" alt="developer-reviewing-javascript">
+            </div>
+            <div class="col-lg-3">
+                <img src="img/developers-discussing-javascript-code.jpg" alt="developers-discussing-javascript-code">
+            </div>
+            <div class="col-lg-3">
+                <img src="img/finger-pointing-at-javascript-code.jpg" alt="finger-pointing-at-javascript-code">
+            </div>
+        </div>
+        <div class="row mt-lg-3 photo-gallery">
+            <div class="col-lg-3">
+                <img src="img/programmers-reviewing-code-on-computer.jpg" alt="programmers-reviewing-code-on-computer">
+            </div>
+            <div class="col-lg-3">
+                <img src="img/software-developer-on-php-code.jpg" alt="software-developer-on-php-code">
+            </div>
+            <div class="col-lg-3">
+                <img src="img/woman-codes.jpg" alt="woman-codes">
+            </div>
+            <div class="col-lg-3">
+                <img src="img/woman-writing-code.jpg" alt="woman-writing-code">
+            </div>
+        </div>
+        <div class="row mt-lg-5 pt-lg-5">
+            <div class="col-lg-10 mx-lg-auto mt-lg-5 pt-lg-5">
+                <div class="text-center"><h2 class="fs-1 fw-bold">Hands-On Industry Experience Before You Graduate</h2></div>
+                <div class="text-center mt-lg-5 pt-lg-4"><p class="lh-lg">Get practical, hands-on experience applying what you've learned as a Web Developer to a real business case presented by a leading digital business like Microsoft, Mastercard, and Google. In these dynamic industry projects, you'll work alongside industry practitioners while cross-collaborating with Divpro students from other bootcamps to develop a compelling digital solution. This is an essential experience applying your technical skills to a real-world business problem working as part of a diverse digital team, just like you will in your new career as a Web Developer.</p></div>
+            </div>
+        </div>
+        <div class="row mt-lg-3 pt-lg-3">
+            <div class="col-lg-6 mx-lg-auto">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner shadow p-3 mb-5 bg-body rounded">
+                        <div class="carousel-item active mx-lg-auto" style="height: 75vh" data-bs-interval="2000">
+                            <div class="card w-100 border-0">
+                                <div class="card-body mx-5 px-3">
+                                    <div><p class="text-muted fw-bold">INDUSTRY PARTNER</p></div>
+                                    <div><img src="img/mastercard-2.svg" style="width: 5rem" alt="mastercard"></div>
+                                    <div class="mt-3"><P class="text-muted fw-bold">THE CHALLENGE</P></div>
+                                    <div class="mt-4"><h2 class="fw-bold fs-3">How might we increase the security of digital transactions through innovative digital solutions?</h2></div>
+                                    <div class="mt-4"><p class="lh-lg">Working in cross-functional teams alongside practitioners from Mastercard, Divpro students designed and built human-centered solutions to this challenge, and presented them to Mastercard leadership.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="height: 75vh" data-bs-interval="2000">
+                            <div class="card w-100 border-0">
+                                <div class="card-body mx-5 px-3">
+                                    <div><p class="text-muted fw-bold">INDUSTRY PARTNER</p></div>
+                                    <div><img src="img/google-2015.svg" style="width: 5rem" alt="google"></div>
+                                    <div class="mt-3"><P class="text-muted fw-bold">THE CHALLENGE</P></div>
+                                    <div class="mt-4"><h2 class="fw-bold fs-3">How might we increase access to health care services through the use of education and digital solutions?</h2></div>
+                                    <div class="mt-4"><p class="lh-lg">Working in cross-functional teams alongside practitioners from Google, Divpro students collaborated to design and build innovative solutions to this challenge. Once complete, students then had the opportunity to present their solutions back to Google.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="height: 75vh" data-bs-interval="2000">
+                            <div class="card w-100 border-0">
+                                <div class="card-body mx-5 px-3">
+                                    <div><p class="text-muted fw-bold">INDUSTRY PARTNER</p></div>
+                                    <div><img src="img/adidas-9.svg" style="width: 5rem" alt="adidas"></div>
+                                    <div class="mt-3"><P class="text-muted fw-bold">THE CHALLENGE</P></div>
+                                    <div class="mt-4"><h2 class="fw-bold fs-3">What digital solutions can we use to support the future success of eCommerce in the apparel and sporting goods industry?</h2></div>
+                                    <div class="mt-4"><p class="lh-lg">Divpro students were challenged to work with practitioners from adidas to design and build an innovative solution to this challenge. At the end, they had the opportunity to present their solution to adidas.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="height: 75vh" data-bs-interval="2000">
+                            <div class="card w-100 border-0">
+                                <div class="card-body mx-5 px-3">
+                                    <div><p class="text-muted fw-bold">INDUSTRY PARTNER</p></div>
+                                    <div><img src="img/emeril-s-restaurant.svg" style="width: 5rem" alt="emeril"></div>
+                                    <div class="mt-3"><P class="text-muted fw-bold">THE CHALLENGE</P></div>
+                                    <div class="mt-4"><h2 class="fw-bold fs-3">As the restaurant industry is experiencing significant disruption, what digital solutions can we create to support successful food delivery?</h2></div>
+                                    <div class="mt-4"><p class="lh-lg">Working alongside practitioners from Emeril Restaurant, Divpro students designed and built a solution to this challenge facing the restaurant industry. They then presented their solutions to Emeril Restaurant leadership.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="height: 75vh" data-bs-interval="2000">
+                            <div class="card w-100 border-0">
+                                <div class="card-body mx-5 px-3">
+                                    <div><p class="text-muted fw-bold">INDUSTRY PARTNER</p></div>
+                                    <div><img src="img/walmart.svg" style="width: 5rem" alt="walmart"></div>
+                                    <div class="mt-3"><P class="text-muted fw-bold">THE CHALLENGE</P></div>
+                                    <div class="mt-4"><h2 class="fw-bold fs-3">How might we increase the security of digital transactions through innovative digital solutions?</h2></div>
+                                    <div class="mt-4"><p class="lh-lg">Working in cross-functional teams alongside practitioners from Walmart, Divpro students designed and built human-centered solutions to this challenge, and presented them to the Walmart team.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!--Campus Section-->
+    <div class="container-fluid" id="campus">
+        <div class="row mt-lg-5 pt-lg-5">
+            <div class="card p-0 text-white">
+                <video autoplay loop muted src="img/hero section bg.mp4"></video>
+                <div class="card-img-overlay p-0">
+                    <div class="col-fluid bg-dark opacity-75 h-100">
+                        <p class="invisible">divpro</p>
+                    </div>
+                </div>
+                <div class="card-img-overlay p-0">
+                    <div class="col-fluid mx-auto text-center">
+                        <div class="col-10 mx-auto position-absolute top-50 start-50 translate-middle">
+                            <h2 class="fs-1 fw-bold">Learn in our State-of-the-Art Online Classroom</h2>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center pb-5 mx-auto position-absolute bottom-0 start-50 translate-middle-x d-flex justify-content-around">
+                        <div class="col-3">
+                            <i class="fa-solid fa-chalkboard-user fs-3 mb-3"></i>
+                            <h3 class="fs-5">Educator-Led, Live Online Courses,<br> From the Comfort of Your Home</h3>
+                            <p class="lh-lg">In all our online courses, learn from Divpro's industry-expert educators through real-time, interactive classes in an engaging classroom environment.</p>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa-solid fa-share-nodes fs-3 mb-3"></i>
+                            <h3 class="fs-5">Interactive, Project-Based Learning</h3>
+                            <p class="lh-lg">Join breakout room sessions in smaller teams as part of the hands-on projects in our online courses, where you will collaborate and learn together.</p>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa-solid fa-people-group fs-3 mb-3"></i>
+                            <h3 class="fs-5">Community Beyond the Classroom</h3>
+                            <p class="lh-lg">During your online course, engage with your classmates and educators in BrainStation’s Slack community, where you’ll receive updates and support. Stay connected and in the loop throughout your online course.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-8 mx-auto">
+                <div class="mb-5"><h2 class="text-center fw-bold">Upcoming Program Dates & Campuses</h2></div>
+                <div class="my-4 text-center"><p><i class="fa-solid fa-circle-info"></i>Due to COVID-19, some courses are currently being held online.</p></div>
+                <table class="table shadow p-3 mb-5 bg-body rounded">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">PACE</th>
+                            <th scope="col">FIRST CLASS</th>
+                            <th scope="col"></th>
+                            <th scope="col">LAST CLASS</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="table-active">Online</th>
+                            <td>Full-Time</td>
+                            <td>July 12</td>
+                            <td><i class="fa-solid fa-arrow-right-long"></i></td>
+                            <td>September 29</td>
+                            <td>Advanced Admissions ends May 27</td>
+                            <td><button type="button" class="btn btn-primary btn-sm">Apply Now</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="table-active">New York</th>
+                            <td>Full-Time</td>
+                            <td>July 12</td>
+                            <td><i class="fa-solid fa-arrow-right-long"></i></td>
+                            <td>September 29</td>
+                            <td>Advanced Admissions ends May 27</td>
+                            <td><button type="button" class="btn btn-primary btn-sm">Apply Now</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="table-active">Miami</th>
+                            <td>Full-Time</td>
+                            <td>August 23</td>
+                            <td><i class="fa-solid fa-arrow-right-long"></i></td>
+                            <td>November 11</td>
+                            <td></td>
+                            <td><button type="button" class="btn btn-primary btn-sm">Apply Now</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="table-active">London</th>
+                            <td>Full-Time</td>
+                            <td>August 23</td>
+                            <td><i class="fa-solid fa-arrow-right-long"></i></td>
+                            <td>November 11</td>
+                            <td></td>
+                            <td><button type="button" class="btn btn-primary btn-sm">Apply Now</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="table-active">Toronto</th>
+                            <td>Full-Time</td>
+                            <td>July 12</td>
+                            <td><i class="fa-solid fa-arrow-right-long"></i></td>
+                            <td>September 29</td>
+                            <td>Advanced Admissions ends May 27</td>
+                            <td><button type="button" class="btn btn-primary btn-sm">Apply Now</button></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="table-active">Vancouver</th>
+                            <td>Full-Time</td>
+                            <td>July 12</td>
+                            <td><i class="fa-solid fa-arrow-right-long"></i></td>
+                            <td>September 29</td>
+                            <td>Advanced Admissions ends May 27</td>
+                            <td><button type="button" class="btn btn-primary btn-sm">Apply Now</button></td>
+                        </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <!--Curriculum Section-->
+    <!--Unit 1-->
+    <div class="container-fluid mt-5 pt-3" id="curriculum">
+        <div class="row mt-5">
+            <div class="col-5 mt-5 mx-auto ps-5 text-start">
+                <p class="fw-bold">UNIT 1</p>
+                <h2 class="fw-bold fs-1">Web Development Foundations</h2>
+                <p class="lh-lg">Quickly get up to speed with the basics of web development, including HTML, CSS, Git, Terminal, and other computer science fundamentals. By the end of this foundational web development unit, you'll be able to set up new projects and build styled multi-page websites from scratch by applying concepts like BEM, Flexbox, and Sass to build static web pages. You'll also learn how to structure your projects like an experienced Web Developer and protect your work by using Git to manage files and control versions of your work.</p>
+            </div>
+            <div class="col-5 mt-5 mx-auto">
+                <img src="img/vecteezy_blog-and-web-designer-and-seo-optimization_.jpg" class="w-100 mt-5" alt="">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-10 mt-2 d-flex mx-auto">
+                <div class="col mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/html-1.svg" style="width: 3rem" alt="">
+                    <span class="fw-bold">HTML 5</span>
+                </div>
+                <div class="col mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/css-3.svg" style="width: 3rem" alt="">
+                    <span class="fw-bold">CSS</span>
+                </div>
+                <div class="col mx-1 shadow p-3 mb-5 bg-body rounded text-center">
+                    <img src="img/sass-1.svg" style="width: 4rem" alt="">
+                </div>
+                <div class="col-3 mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/visual-studio-code-1.svg" style="width: 3rem" alt="">
+                    <span class="fw-bold">Visual Studio Code</span>
+                </div>
+                <div class="col mx-1 shadow p-3 mb-5 bg-body rounded text-center">
+                    <img src="img/git.svg" style="width: 7rem" alt="">
+                </div>
+                <div class="col mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/chrome.svg" style="width: 3rem" alt="">
+                    <span class="fw-bold">CHROME</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 mt-2 d-flex">
+                <div class="col-3">
+                    <p class="fw-bold text-end py-3">KEY SKILLS:</p>
+                </div>
+                <div class="col-3 ms-2 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Project Structure & Setup</p>
+                </div>
+                <div class="col-2 mx-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Static Websites</p>
+                </div>
+                <div class="col-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Multi-Page Websites</p> 
+                </div>
+            </div>
+            <div class="col-7 mx-auto d-flex">
+                <div class="col-2 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Version Control</p> 
+                </div>
+                <div class="col-4 mx-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Research & Problem Solving</p> 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 d-flex mt-4 mx-auto">
+                <div class="col-6 mx-1 pe-3">
+                    <i class="fa-solid fa-screwdriver-wrench fs-3 text-primary"></i>
+                    <h2 class="fs-4 mt-3 fw-bold">Build Stylish, Multi-Page Websites</h2>
+                    <p class="lh-lg">Master HTML/CSS and build websites with complex layouts using Flexbox. Learn to apply BEM and Sass to write efficient code, and gain hands-on experience through multiple web development projects and exercises.</p>
+                </div>
+                <div class="col-6 mx-1">
+                    <i class="fa-solid fa-laptop-code fs-3 text-primary"></i>
+                    <h2 class="fs-4 mt-3 fw-bold">Learn Your Development Environment & Tools</h2>
+                    <p class="lh-lg">Get familiar with the web development environment and other key tools that form an essential part of any Web Developer workflow. In this coding bootcamp, learn the key coding skills and resources used by web development professionals every day to solve problems quickly and efficiently.</p>
+                </div>
+            </div>
+        </div>
+        <!--Unit 2-->
+        <div class="row mt-5">
+            <div class="col-5 mt-5 mx-auto ps-5 text-start">
+                <p class="fw-bold">UNIT 2</p>
+                <h2 class="fw-bold fs-1">JavaScript</h2>
+                <p class="lh-lg">Alongside HTML/CSS, learn how to use JavaScript, one of the world's most popular programming languages. JavaScript enables you to manipulate the underlying code of a webpage and unlocks the ability to create dynamic, interactive experiences through HTML, CSS, and Javascript. In this unit, you'll learn the fundamentals of programming with JavaScript, and will apply it to build your first web development portfolio project. You'll also learn invaluable problem-solving skills such as whiteboarding and how to think like a programmer, which will help you throughout this Web Development program and into your new career as a Web Developer.</p>
+            </div>
+            <div class="col-5 mt-5 mx-auto">
+                <img src="img/vecteezy_the-web-developer-team-is-building-a-smartphone-app-in-flat_.jpg" class="w-100 mt-5" alt="">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-10 mt-2 d-flex mx-auto">
+                <div class="col-2 mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/logo-javascript.svg" style="width: 3rem" alt="">
+                    <span class="fw-bold">JavaScript</span>
+                </div>
+                <div class="col-2 mx-1 shadow p-3 mb-5 bg-body rounded text-center">
+                    <img src="img/git.svg" style="width: 7rem" alt="">
+                </div>
+                <div class="col-3 mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/visual-studio-code-1.svg" style="width: 3rem" alt="">
+                    <span class="fw-bold">Visual Studio Code</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 mt-2 d-flex">
+                <div class="col-3">
+                    <p class="fw-bold text-end py-3">KEY SKILLS:</p>
+                </div>
+                <div class="col-2 ms-2 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>JavaScript</p>
+                </div>
+                <div class="col-3 mx-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>API Data Handling</p>
+                </div>
+                <div class="col-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Dynamic Websites</p> 
+                </div>
+            </div>
+            <div class="col-7 mx-auto d-flex">
+                <div class="col-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Asynchronous Code</p> 
+                </div>
+                <div class="col-4 mx-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Programmatic Thinking</p> 
+                </div>
+                <div class="col-4 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Programming Foundations</p> 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 d-flex mt-4 mx-auto">
+                <div class="col-4">
+                    <i class="fa-brands fa-js-square fs-3 text-primary"></i>
+                    <h2 class="fs-4 mt-3 fw-bold">Learn Programming Fundamentals</h2>
+                    <p class="lh-lg">Explore the basics of programming with JavaScript, and immediately apply it towards building interactive features into your websites combining HTML, CSS, and Javascript. With a solid understanding of programming and computer science fundamentals, you'll have an easier time learning new frameworks and computer programming languages in the future.</p>
+                </div>
+                <div class="col-4 mx-4">
+                    <i class="fa-solid fa-diagram-project fs-3 text-primary"></i>
+                    <h2 class="fs-4 mt-3 fw-bold">Use APIs to Access & Use Data</h2>
+                    <p class="lh-lg">Learn how to use Application Programming Interfaces (APIs) to incorporate dynamic data into your interactive websites.</p>
+                </div>
+                <div class="col-4">
+                    <i class="fa-solid fa-laptop-code fs-3 text-primary"></i>
+                    <h2 class="fs-4 mt-3 fw-bold">Get Hands-On Experience With Real-World Projects</h2>
+                    <p class="lh-lg">In this Web Development bootcamp, tackle hands-on projects that challenge you to apply what you've learned, building web experiences from mockups made by real designers. As you complete these projects throughout the course, you'll be able to develop a web development portfolio of work demonstrating your new coding skills.</p>
+                </div>
+            </div>
+        </div>
+        <!--Unit 3-->
+        <div class="row mt-5">
+            <div class="col-5 mt-5 mx-auto ps-5 text-start">
+                <p class="fw-bold">UNIT 3</p>
+                <h2 class="fw-bold fs-1">React & Single Page Applications</h2>
+                <p class="lh-lg">Build upon your HTML/CSS and JavaScript knowledge to leverage React, a leading front-end library used by companies like Facebook, Netflix, and more. Because React is a library (and not a framework), it provides enormous flexibility when building rich user interfaces and has developed a passionate community with excellent web developer and software development support. Using React, learn to build Single Page Applications - progressive web applications that feel like a native app. This modern software development approach is used by companies like Twitter and Facebook, and you'll learn how to deploy it in your own web development projects.</p>
+            </div>
+            <div class="col-5 mt-5 mx-auto">
+                <img src="img/Web_developer_designing_web_layout_generated.jpg" class="w-100 mt-4" alt="">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-10 mt-2 d-flex mx-auto">
+                <div class="col-2 mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/logo-javascript.svg" style="width: 3rem" alt="">
+                    <span class="fw-bold">JavaScript</span>
+                </div>
+                <div class="col mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/react-2.svg" style="width: 3rem" alt="">
+                    <span class="fw-bold">React JS & JSX</span>
+                </div>
+                <div class="col mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/react-2.svg" style="width: 3rem" alt="">
+                    <span class="fw-bold">React Dev Tools</span>
+                </div>
+                <div class="col-3 mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/visual-studio-code-1.svg" style="width: 3rem" alt="">
+                    <span class="fw-bold">Visual Studio Code</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 mt-2 d-flex">
+                <div class="col-3">
+                    <p class="fw-bold text-end py-3">KEY SKILLS:</p>
+                </div>
+                <div class="col-2 ms-2 h-50 py-3 shadow m3-5 bg-body rounded text-center">
+                    <p>React JS</p>
+                </div>
+                <div class="col-3 mx-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Single Page Applications</p>
+                </div>
+                <div class="col-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Dynamic URLs</p> 
+                </div>
+                <div class="col-2 ms-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Routing</p> 
+                </div>
+            </div>
+            <div class="col-7 mx-auto d-flex">
+                <div class="col-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Advanced JavaScript</p> 
+                </div>
+                <div class="col-4 mx-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Browser Data Handling</p> 
+                </div>
+                <div class="col-5 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Class Components & Lifecycle Methods</p> 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 d-flex mt-4 mx-auto">
+                <div class="col-4">
+                    <i class="fa-brands fa-react fs-3 text-primary"></i>
+                    <h2 class="fs-4 mt-3 fw-bold">Apply React to Your Web Development Projects</h2>
+                    <p class="lh-lg">As the front-end library behind many of the world's most popular web applications, React is one of the most important full-stack web developer skills.</p>
+                </div>
+                <div class="col-4 mx-4">
+                    <i class="fa-brands fa-cloudscale fs-3 text-primary"></i>
+                    <h2 class="fs-4 mt-3 fw-bold">Discover How to Write Efficient, High-Performance React Code</h2>
+                    <p class="lh-lg">Learn how to structure your React application like a software developer to run quickly and effectively to deliver the best web experiences across all your current and future projects.</p>
+                </div>
+                <div class="col-4">
+                    <i class="fa-solid fa-code fs-3 text-primary"></i>
+                    <h2 class="fs-4 mt-3 fw-bold">Build Modern Single Page Applications</h2>
+                    <p class="lh-lg">Develop real Single Page Applications and learn how this approach to front-end web development enables progressive web applications to look and feel like high-performance native applications.</p>
+                </div>
+            </div>
+        </div>
+        <!--Unit 4-->
+        <div class="row mt-5">
+            <div class="col-5 mt-5 mx-auto ps-5 text-start">
+                <p class="fw-bold">UNIT 4</p>
+                <h2 class="fw-bold fs-1">Back-End Development & Collaboration</h2>
+                <p class="lh-lg">Complement your front-end knowledge and build a full-stack web development foundation by learning about back-end web development. Create your own REST API web server leveraging Node.js and Express, and use it to power a functioning web application. Learn Agile methodologies and explore the world of collaborative development and pair programming – critical in-demand skills for the workplace. Through a hands-on collaborative project, you'll leverage JIRA, an Agile project management tool, and Git for version control to collaborate on building a robust web application as part of this Web Development bootcamp.</p>
+            </div>
+            <div class="col-5 mt-5 mx-auto">
+                <img src="img/vecteezy_the-web-developer-team-is-building-a-smartphone-app-in-flat_.jpg" class="w-100 mt-5" alt="">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-10 mt-2 d-flex mx-auto">
+                <div class="col mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/nodejs-1.svg" style="width: 5rem" alt="">
+                </div>
+                <div class="col mx-1 shadow p-4 mb-5 bg-body rounded text-center">
+                    <img src="img/express-109.svg" style="width: 7rem" alt="">
+                </div>
+                <div class="col mx-1 shadow mb-5 bg-body rounded text-center">
+                    <img src="img/mysql-3.svg" style="width: 5rem" alt="">
+                </div>
+                <div class="col mx-1 shadow p-3 mb-5 bg-body rounded text-center">
+                    <img src="img/git.svg" style="width: 7rem" alt="">
+                </div>
+                <div class="col mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/jira-1.svg" style="width: 3rem" alt="">
+                    <span class="fw-bold fs-3">Jira</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 mt-2 d-flex">
+                <div class="col-3">
+                    <p class="fw-bold text-end py-3">KEY SKILLS:</p>
+                </div>
+                <div class="col-2 ms-2 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Web Applications</p>
+                </div>
+                <div class="col-2 mx-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>REST APIs</p>
+                </div>
+                <div class="col-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Relational Databases</p> 
+                </div>
+            </div>
+            <div class="col-7 mx-auto d-flex">
+                <div class="col-4 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Object-Relational Mapping</p> 
+                </div>
+                <div class="col-3 mx-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Pair Programming</p> 
+                </div>
+                <div class="col-4 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Collaborative Development</p> 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 d-flex mt-4 mx-auto">
+                <div class="col-6 mx-1 pe-3">
+                    <i class="fa-brands fa-chrome fs-3 text-primary"></i>
+                    <h2 class="fs-4 mt-3 fw-bold">Build Interactive Web Applications</h2>
+                    <p class="lh-lg">In this coding bootcamp, learn how to build back-end capabilities to gain full-stack development skills and unlock deeper functionality in your web applications using Node.js and Express. Learn to build relational databases to add a persistent data layer, and develop your own REST API to distribute data to your front-end to demonstrate your full-stack development skills.</p>
+                </div>
+                <div class="col-6 mx-1">
+                    <i class="fa-solid fa-user-group fs-3 text-primary"></i>
+                    <h2 class="fs-4 mt-3 fw-bold">Gain Hands-On Experience Completing a Collaborative , Agile Development Project</h2>
+                    <p class="lh-lg">While expanding your software development skills, learn how to collaborate alongside other web developers on an Agile basis by leveraging Git and JIRA to deliver on a truly collaborative full-stack web development project building a complete web application.</p>
+                </div>
+            </div>
+        </div>
+        <!--Unit 5-->
+        <div class="row mt-5">
+            <div class="col-5 mt-5 mx-auto ps-5 text-start">
+                <p class="fw-bold">UNIT 5</p>
+                <h2 class="fw-bold fs-1">DevOps & Professional Development</h2>
+                <p class="lh-lg">Web Development is a diverse and constantly evolving field that goes beyond writing code. In this final unit, you'll be introduced to the fundamentals for critical technology topics that round out your knowledge and prepare you for the next steps of continued learning and growth. Key topics include deployment, which is the process of launching your website on the Internet, and DevOps (Development & Operations), an important set of practices used to increase efficiency and quality for development outputs. Closing off this unit, you’ll complete your Capstone Project as part of your professional portfolio, and prepare for your new career path with Divpro's Career Accelerator Program.</p>
+            </div>
+            <div class="col-5 mt-5 mx-auto">
+                <img src="img/vecteezy_web-developer-and-seo-optimization_.jpg" class="w-100 mt-5" alt="">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-10 mt-2 d-flex mx-auto">
+                <div class="col-3 mx-1 shadow py-4 mb-5 bg-body rounded text-center">
+                    <img src="img/heroku-1.svg" style="width: 6rem" alt="">
+                </div>
+                <div class="col-3 mx-1 shadow py-3 mb-5 bg-body rounded text-center">
+                    <img src="img/netlify.svg" style="width: 3rem" alt="">
+                    <span class="fw-bold fs-3"> Netlify</span>
+                </div>
+                <div class="col-3 mx-1 shadow p-3 mb-5 bg-body rounded text-center">
+                    <img src="img/aws-2.svg" style="width: 5rem" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 mt-2 d-flex">
+                <div class="col-3">
+                    <p class="fw-bold text-end py-3">KEY SKILLS:</p>
+                </div>
+                <div class="col-2 ms-2 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Deployment</p>
+                </div>
+                <div class="col-2 mx-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>React Testing</p>
+                </div>
+                <div class="col-2 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Career Change</p> 
+                </div>
+                <div class="col-3 ms-3 h-50 py-3 shadow mb-5 bg-body rounded text-center">
+                    <p>Presentation & Communication</p> 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 d-flex mt-4 mx-auto">
+                <div class="col-6 mx-1 pe-3">
+                    <i class="fa-solid fa-laptop-code fs-3 text-primary"></i>
+                    <h2 class="fs-4 mt-3 fw-bold">Deploy Your Web Applications</h2>
+                    <p class="lh-lg">You've learned to build web applications, now it's time to publish and deploy them like a full-stack developer. Learn how full-stack web developers use Heroku to deploy web apps and explore important web development topics such as DNS, virtualization, and cloud computing. Leverage your new skills developed throughout the program to finalize your Capstone Project and prepare to showcase everything you've learned during Demo Day.</p>
+                </div>
+                <div class="col-6 mx-1">
+                    <i class="fa-solid fa-briefcase fs-3 text-primary"></i>
+                    <h2 class="fs-4 mt-3 fw-bold">Prepare to Launch Your New Career</h2>
+                    <p class="lh-lg">Dive deep into professional development and prepare to launch your new career path with Divpro's Career Accelerator Program. Define your career goals and practice and refine your presentation and communication skills and prepare to present yourself and your work to potential employers as you kick off your job search.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-10 mx-auto">
+                <div class="my-5"><h2 class="text-center fw-bold fs-1">Available Full-Time or Part-Time</h2></div>
+                <div class="text-center mt-lg-4 pt-lg-4"><p class="lh-lg">Divpro bootcamps are designed to support learning and career outcomes with flexibility in mind, through either full-time or part-time bootcamp options. Accelerate your learning by joining a full-time program and see what a typical day looks like below, or explore more flexible learning with our part-time bootcamps – both of which are powered by our live online classroom.</p></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 mx-auto d-flex justify-content-evenly">
+                <div class="col-6 shadow p-4 mb-5 bg-body rounded">
+                    <i class="fa-solid fa-calendar-days fs-3 text-primary"></i>
+                    <span class="text-primary fs-3 fw-bold ms-4">Full-Time Program</span>
+                    <p class="text-muted ms-5 ps-1">Classes on Monday to Friday</p>
+                    <div class="row mt-5">
+                        <div class="col-3">
+                            <p class="text-primary fw-bold text-center">10:15 AM</p>
+                        </div>
+                        <div class="col-9">
+                            <h2 class="fs-5 fw-bold">Pre-Class prep</h2>
+                            <p class="text-muted">From the comfort of your home, grab a coffee and some snacks to kick-start your day.</p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-3">
+                            <p class="text-primary fw-bold text-center">10:30 AM</p>
+                        </div>
+                        <div class="col-9">
+                            <h2 class="fs-5 fw-bold">Daily review</h2>
+                            <p class="text-muted">Kick off your learning with a quick review of key concepts from the previous day to solidify what you've learned. Complete a small code challenge to help practice core concepts.</p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-3">
+                            <p class="text-primary fw-bold text-center">11:00 AM</p>
+                        </div>
+                        <div class="col-9">
+                            <h2 class="fs-5 fw-bold">Lecture and lab challenge</h2>
+                            <p class="text-muted">Dive into new topics through an interactive lecture filled with code demos and examples. Apply the concepts you've just learned through a structured lab challenge following the lecture.</p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-3">
+                            <p class="text-primary fw-bold text-center">1:30 PM</p>
+                        </div>
+                        <div class="col-9">
+                            <h2 class="fs-5 fw-bold">Lunch</h2>
+                            <p class="text-muted">Take a break and recharge over lunch. Connect with your peers online or take some time to step away and take care of items that come up during the day.</p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-3">
+                            <p class="text-primary fw-bold text-center">2:30 PM</p>
+                        </div>
+                        <div class="col-9">
+                            <h2 class="fs-5 fw-bold">Whiteboarding and codealong challenge</h2>
+                            <p class="text-muted">Collaborate with small groups to solve complex code problems and practice whiteboarding – important skills for any software engineer. Gain practical, step-by-step instructions on how to use what you've learned. Watch code demonstrations and write code live, alongside your Educator.</p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-3">
+                            <p class="text-primary fw-bold text-center">4:30 PM</p>
+                        </div>
+                        <div class="col-9">
+                            <h2 class="fs-5 fw-bold">Project work and one-on-one coaching sessions</h2>
+                            <p class="text-muted">Incrementally apply what you've learned through structured unit projects, and work with a member of the education team for personalized support and development.</p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-3">
+                            <p class="text-primary fw-bold text-center">6:30 PM</p>
+                        </div>
+                        <div class="col-9">
+                            <h2 class="fs-5 fw-bold">End of day</h2>
+                            <p class="text-muted">Close off a dynamic learning day and recharge.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 shadow p-4 mb-5 bg-body rounded" style="height: 76vh">
+                    <i class="fa-solid fa-calendar-day fs-3 text-primary"></i>
+                    <span class="text-primary fs-3 fw-bold ms-4">Part-Time Program</span>
+                    <p class="text-muted ms-5 ps-1">Classes on Tuesday, Thursday and Saturday</p>
+                    <p class="lh-lg text-center mt-5">Divpro's Part-Time Bootcamps cover the same learning material, delivered on evenings and weekends, including scheduled breaks throughout the program. They are designed to fit into your life, making it easier than ever to access our transformational learning experiences. Speak with a Learning Advisor to understand more about the Part-Time opportunity and how you can join!</p>
+                    <div class="d-grid mt-5 col-8 mx-auto">
+                        <button class="btn btn-primary fw-bold" type="button">Speak with a Learning Advisor</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Career Services Section-->
+    <div class="container-fluid mt-5 pt-3" id="career-section">
+        <div class="row mx-auto mt-5 pt-5">
+            <div class="col-10 mx-auto shadow p-5 mb-5 bg-body rounded">
+                <div class="text-center"><h2 class="fs-1 fw-bold">Career Services That Get You Hired</h2></div>
+                <div class="text-center mt-lg-4 pt-lg-4"><p class="lh-lg">Divpro is more than a Web Development bootcamp: it's a career transformation experience. Beyond learning the essential technical skills you'll need to start a new career as a Web Developer, you'll gain hands-on, industry experience through unique real-world projects where you'll work alongside industry professionals on real business problems and collaborate with designers, data scientists, and digital marketers to deliver a real-world solution. See why thousands of graduates have launched their new careers with Divpro through this Web Development bootcamp.</p></div>
+            </div>
+        </div>
+        <div class="row mx-auto mt-5">
+            <div class="col-10 d-flex mx-auto justify-content-evenly">
+                <div class="col-6 py-4 px-3 my-4 text-left">
+                    <h2 class="fs-1 fw-bold">Career Support From Day 1</h2>
+                    <p class="mt-4">Your career transformation begins on day 1. Kick off your program by setting your career goals and preparing for success as you enter the job market. From the first day, throughout the program and beyond, we're with you to transform your career.</p>
+                </div>
+                <div class="col-5">
+                    <img class="w-100" src="img/two-people-learning-to-code.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row mx-auto mt-5">
+            <div class="col-10 d-flex mx-auto justify-content-evenly">
+                <div class="col-5">
+                    <img class="w-100" src="img/students-at-coding-workshop.jpg" alt="">
+                </div>
+                <div class="col-6 py-4 px-3 my-4 text-left">
+                    <h2 class="fs-1 fw-bold">Hands-On Workshops Throughout the Program</h2>
+                    <p class="mt-4">Your Divpro bootcamp is designed with career success in mind and includes regular workshops that prepare you to tell your story and land that first job with resume, LinkedIn, and interviewing support and guidance.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-auto mt-5">
+            <div class="col-10 d-flex mx-auto justify-content-evenly">
+                <div class="col-6 py-4 px-3 my-4 text-left">
+                    <h2 class="fs-1 fw-bold">1-on-1 Support When You Need It</h2>
+                    <p class="mt-4">Everyone's career transformation journey is different, so you'll have 1-on-1 support from Divpro's dedicated career coach team to help you navigate your own unique career transformation and help you get your first job.</p>
+                </div>
+                <div class="col-5">
+                    <img class="w-100" src="img/two-women-on-laptop.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Testimonials Section-->
+    <div class="container-fluid mt-5 pt-3" id="testimonials-section">
+        <div class="row mx-auto mt-5 pt-5">
+            <div class="col-10 mx-auto">
+                <div class="text-center"><h2 class="fs-1 fw-bold">What Our Graduates Are Saying</h2></div>
+            </div>
+        </div>
+        <!--Testimonial Row 1-->
+        <div class="row mx-auto mt-5">
+            <div class="col-10 d-flex mx-auto justify-content-evenly">
+                <div class="col-5 my-4 shadow mb-5 bg-body rounded" style="height: 60vh">
+                    <div class="col d-flex py-3 px-3 mt-3">
+                        <div class="col-2 ms-3"><img src="img/woman.png" alt=""></div>
+                        <div class="col pt-1 ps-2">
+                            <h2 class="fs-5 fw-bold">Kayla Noronha</h2>
+                            <p class="text-muted">Software Developer at Cyferd</p>
+                        </div>
+                    </div>
+                    <div class="col-10 mx-auto py-4">
+                        <p>I really liked my learning experience because they really prepared us for the industry. Not only did they give us technical tools and interview skills that we needed, but we also had the opportunity to work in group settings, with students in the other disciplines, similar to the way you'd be collaborating in a real work setting.</p>
+                        <div class="d-grid gap-2 py-3 col-10 mx-auto">
+                            <button class="btn btn-outline-primary" type="button">Read Full Testimonial</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-5 my-4 shadow mb-5 bg-body rounded" style="height: 60vh">
+                    <div class="col d-flex py-3 px-3 mt-3">
+                        <div class="col-2 ms-3"><img src="img/woman.png" alt=""></div>
+                        <div class="col pt-1 ps-2">
+                            <h2 class="fs-5 fw-bold">Jenee Washington</h2>
+                            <p class="text-muted">QA Analyst at Wix.com</p>
+                        </div>
+                    </div>
+                    <div class="col-10 mx-auto py-4">
+                        <p class="pb-3">The highlight of the learning experience for me was achieving that invincible feeling of being able to accomplish anything, such as learning how to actually code. Divpro's fully immersive environment really helped me remain interested in the content, we were always being presented something new.</p>
+                        <div class="d-grid gap-2 pt-4 col-10 mx-auto">
+                            <button class="btn btn-outline-primary" type="button">Read Full Testimonial</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Testimonial Row 2-->
+        <div class="row mx-auto mt-2">
+            <div class="col-10 d-flex mx-auto justify-content-evenly">
+                <div class="col-5 my-4 shadow mb-5 bg-body rounded" style="height: 60vh">
+                    <div class="col d-flex py-3 px-3 mt-3">
+                        <div class="col-2 ms-3"><img src="img/man.png" alt=""></div>
+                        <div class="col pt-1 ps-2">
+                            <h2 class="fs-5 fw-bold">Daniel Castro</h2>
+                            <p class="text-muted">Software Engineer at Microsoft</p>
+                        </div>
+                    </div>
+                    <div class="col-10 mx-auto py-4">
+                        <p class="pb-4">Even though I could grasp the material and understand the concepts in an abstract format, I didn't always understand how it could be applied in real life. Getting the opportunity to learn from. . . the Head Instructor for my course, and seeing him coding live, was really eye-opening for me.</p>
+                        <div class="d-grid gap-2 py-3 col-10 mx-auto">
+                            <button class="btn btn-outline-primary" type="button">Read Full Testimonial</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-5 my-4 shadow mb-5 bg-body rounded" style="height: 60vh">
+                    <div class="col d-flex py-3 px-3 mt-3">
+                        <div class="col-2 ms-3"><img src="img/woman.png" alt=""></div>
+                        <div class="col pt-1 ps-2">
+                            <h2 class="fs-5 fw-bold">Laura Brennan</h2>
+                            <p class="text-muted">Support Analyst at Q4</p>
+                        </div>
+                    </div>
+                    <div class="col-10 mx-auto py-4">
+                        <p>It was an intense three months, I often felt like my brain was whirring far too fast for my body to keep up, but I can't believe how quickly I progressed and how confident I feel in my abilities now. Not only have I built a strong foundation of knowledge in the field, I've also learned how to continue to progress and adapt to an ever-changing industry.</p>
+                        <div class="d-grid gap-2 pt-3 col-10 mx-auto">
+                            <button class="btn btn-outline-primary" type="button">Read Full Testimonial</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-lg-5 pt-lg-5">
+            <div class="card p-0 text-white">
+                <video autoplay loop muted src="img/testimonial bg.mp4"></video>
+                <div class="card-img-overlay p-0">
+                    <div class="col-fluid bg-dark opacity-75 h-100">
+                        <p class="invisible">divpro</p>
+                    </div>
+                </div>
+                <div class="card-img-overlay p-0">
+                    <div class="col-fluid mx-auto text-center">
+                        <div class="col-10 mx-auto position-absolute top-50 start-50 translate-middle">
+                            <h1 style="font-size: 61px" class="fw-bold">Join our growing community of <span class="text-primary">15,000+</span> alumni.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Get Started Section-->
+    <div class="container-fluid mt-5 pt-3" id="get-started-section">
+        <div class="row mx-auto my-5 py-5">
+            <div class="col-10 d-flex mx-auto justify-content-evenly">
+                <div class="col-5">
+                    <h2 class="fw-bold">Get Started</h2>
+                    <p class="my-5">Join a network of over 250,000 professionals who are transforming and accelerating their careers through cutting edge tech skills.</p>
+                    <p>View the full Program Package to:</p>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><i class="fa-solid fa-check text-primary fs-5"></i><span class="ms-3">View tuition details</span></li>
+                        <li class="list-group-item border-0"><i class="fa-solid fa-check text-primary fs-5"></i><span class="ms-3">Learn about scholarships and financing options</span></li>
+                        <li class="list-group-item border-0"><i class="fa-solid fa-check text-primary fs-5"></i><span class="ms-3">View the application process</span></li>
+                    </ul>
+                </div>
+                <div class="col-5 shadow mb-5 bg-body rounded">
+                    <form class="row mx-auto p-4">
+                        <h2 class="fs-5 fw-bold my-3">View the Program Package to:</h2>
+                        <div class="col-md-6">
+                          <input type="text" class="form-control my-3" id="firstName" placeholder="First Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control my-3" id="lastName" placeholder="Last Name">
+                        </div>
+                        <div class="col-12">
+                          <input type="email" class="form-control" id="emailAddress" placeholder="Email Address">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control my-3" id="contactNumber" placeholder="Contact No. ( Optional )">
+                        </div>
+                        <div><p class="text-muted"><small>By clicking “View Program Package,” you confirm that you accept our <a class="text-reset" href="#">Terms</a>.</small></p></div>
+                        <div class="d-grid mb-4">
+                            <button class="btn btn-primary fw-bold" type="button">View Program Package</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-10 mx-auto"><hr></div>
+    <div class="col-10 d-flex mx-auto justify-content-around">
+        <div class="col-8"><p class="text-muted"><small>All Content © Divpro Inc. 2015-2022. "Divpro" and the Divpro Logo are trademarks of Divpro Inc. All Rights Reserved.</small></p></div>
+        <div class="col-2"><p class="text-muted text-center"><small><a class="text-reset text-decoration-none" href="#">Terms of Service</a></small></p></div>
+        <div class="col-1"><p class="text-muted"><small><a class="text-reset text-decoration-none" href="#">Accessibility</a></small></p></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
